@@ -1,7 +1,7 @@
 /* Space out content a bit */
 body {
-  padding-top: 20px;
-  padding-bottom: 20px;
+/*  padding-top: 20px;
+  padding-bottom: 20px;*/
   background: url(../img/bg-header.jpg);
   background-size: 1440px 800px;
   background-repeat:no-repeat;
@@ -82,11 +82,17 @@ body {
     border-bottom: 0;
   }
 }
-
+@font-face {
+    font-family: "odebrechtslab";
+    font-style: normal;
+    font-weight: normal;
+    src: local("?"), url("../fonts/.woff") format("woff"), url("/fonts/futurastd-light-webfont.ttf") format("truetype");
+}
 #Login{
   height: 119px;
   background: #f3f3f3;
   width: 880px;
+  margin-top: 45%;
 }
 #Login .Box {
   float: left;
@@ -138,5 +144,25 @@ body {
   padding: 30px 0;
   color: #FFF;
   z-index: 100;
-  margin-top: 360px;
+  margin-top: 16%;
 }
+#Title{
+  background: #c80029;
+  position: absolute;
+  top: 0;
+  left: 0px;
+  width: 280px;
+  height: 120px;
+  z-index: 99999!important;
+  display: block;
+  color: #FFF;
+}
+#Logo {
+  display: block;
+  width: 280px;
+  position: absolute;
+  left: 0px;
+  top: 134px;
+  z-index: 2;
+}
+

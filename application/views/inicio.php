@@ -28,17 +28,19 @@
 
   <body>
    <div class="container">
-      <div class="header">
-        <ul class="nav nav-pills pull-right">
-          <li class="active"><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
-                <h3 class="text-muted">Project name</h3>
-      </div>
+<div>
+    
 
+        <a id="Title" href="/">
+            <h1 class="">
+            <span lang="es-ES" style="">Gobernanza Rutas de Lima</span>
+            </h1>
+        </a>
+        <span id="Logo"><img src="<?php echo base_url() ?>assets/img/logo_rutas_de_lima.png" alt="Rutas de Lima"></span>
+</div>
+    
+      <div id="Login">
        <form class="form-inline"> 
-          <div id="Login">
               <div class="Box">
                 <div class="User">bg-user</div>
                     <h2 class="Translate">Usuario</h2>
@@ -52,9 +54,9 @@
               <div align="center">
                   <button type="button" class="btn btn-danger btn-lg" style="border-radius: 0px;">Ingresar</button>
               </div>
-                
+              </form>    
           </div>
-        </form>
+
     </div> <!-- /container -->
 <div id="Footer" class="Translate">
     <div class="container" lang="es-ES" style="">
