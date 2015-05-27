@@ -33,7 +33,7 @@
 
         <a id="Title" href="/">
             <h1 class="">
-            <span lang="es-ES" style="">Gobernanza Rutas de Lima</span>
+            <span lang="es-ES" style="">Gobernanza  Rutas  de  Lima</span>
             </h1>
         </a>
         <span id="Logo"><img src="<?php echo base_url() ?>assets/img/logo_rutas_de_lima.png" alt="Rutas de Lima"></span>
