@@ -1,5 +1,5 @@
 /* Space out content a bit */
-body {
+body{
 /*  padding-top: 20px;
   padding-bottom: 20px;*/
   background: url(../img/bg-header.jpg);
@@ -171,4 +171,43 @@ body {
   margin-top: 20px;
   margin-left: 20px;
   color: #FFF;
+}
+#Title h2 {
+  font-size: 12px;
+  line-height: 30px;
+  font-family: 'odebrechtslab';
+  margin-top: 20px;
+  margin-left: 20px;
+  color: #FFF;
+}
+.cinta-roja{
+  background-color: #e4002b;;
+  height: 15px;
+}
+.cinta-roja-delgada{
+  background-color: #e4002b;;
+  height: 5px;
+}
+.cinta-gris{
+  background-color: rgb(77, 68, 68);
+  height: 25px;
+}
+.cinta-blanco{
+  height: 210px;
+  background-image: url(../img/bg-header.jpg);
+}
+.cinta-cuerpo{
+  height: 500px;
+}
+.cinta-pie{
+  background: #e4002b;
+  padding: 30px 0;
+  color: #FFF;
+  z-index: 100;
+}
+
+.container2{
+  position: relative;
+  margin: auto;
+  width: 85%;
 }

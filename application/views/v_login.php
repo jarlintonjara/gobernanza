@@ -28,19 +28,17 @@
 
   <body>
    <div class="container">
-<div>
-    
-
-        <a id="Title" href="/">
-            <h1 class="">
+      <div>
+        <a id="Title" href="<?php base_url() ?>">
+          <h1 class="">
             <span lang="es-ES" style="">Gobernanza  Rutas  de  Lima</span>
-            </h1>
+          </h1>
         </a>
         <span id="Logo"><img src="<?php echo base_url() ?>assets/img/logo_rutas_de_lima.png" alt="Rutas de Lima"></span>
-</div>
+      </div>
     
       <div id="Login">
-       <form class="form-inline"> 
+       <form class="form-inline" action="<?php echo base_url()?>c_inicio" method="post"> 
               <div class="Box">
                 <div class="User">bg-user</div>
                     <h2 class="Translate">Usuario</h2>
@@ -52,7 +50,7 @@
                     <input type="password" name="" value="" placeholder="">
               </div>
               <div align="center">
-                  <button type="button" class="btn btn-danger btn-lg" style="border-radius: 0px;">Ingresar</button>
+                  <button type="submit" class="btn btn-danger btn-lg" style="border-radius: 0px;">Ingresar</button>
               </div>
               </form>    
           </div>
