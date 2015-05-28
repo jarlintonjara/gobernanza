@@ -83,9 +83,9 @@ body {
 @font-face {
   font-family: odebrechtslab;
   src: local("?"),
-  url("../font/odebrecht-sans_bold-webfont.woff") format("woff"),
-  url("../font/odebrecht-sans_bold-webfont.otf") format("opentype"),
-  url("../font/odebrecht-sans_bold-webfont.svg#odebrechtslab") format("svg");
+  url("../fonts/odebrecht-sans_bold-webfont.woff") format("woff"),
+  url("../fonts/odebrecht-sans_bold-webfont.otf") format("opentype"),
+  url("../fonts/odebrecht-sans_bold-webfont.svg#odebrechtslab") format("svg");
 }
 #Login{
   height: 119px;
