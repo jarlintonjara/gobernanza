@@ -45,9 +45,11 @@
     </div>
   </div>
 <!-- end cuerpo -->
-    <script src="<?php echo base_url() ?>assets/js/jquery.js"></script>
-    <script src="<?php echo base_url() ?>assets/js/responsive-calendar.js"></script>
-    <script src="<?php echo base_url() ?>assets/js/boosttrap.min.js"></script>
+
+<!-- footer -->
+  <?php include "html/footer.php" ?>
+<!-- end footer -->
+
         <script type="text/javascript">
       $(document).ready(function () {
         $(".responsive-calendar").responsiveCalendar({
@@ -60,9 +62,5 @@
         });
       });
     </script>
-<!-- footer -->
-  <?php include "html/footer.php" ?>
-<!-- end footer -->
-
 </body>
 </html>
