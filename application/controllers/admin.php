@@ -26,14 +26,31 @@ class Admin extends CI_Controller {
 	{
 		$this->load->view('v_admincpo');
 	}
+
+		public function cpofechas()
+	{
+		$this->load->view('v_admincpofechas');
+	}
+
 	public function directorio()
 	{
 		$this->load->view('v_admindirectorio');
+	}
+
+	public function directoriofechas()
+	{
+		$this->load->view('v_admindirectoriofechas');
 	}
 	public function jga()
 	{
 		$this->load->view('v_adminjga');
 	}
+
+	public function jgafechas()
+	{
+		$this->load->view('v_adminjgafechas');
+	}
+
 	public function macroestructura()
 	{
 		$this->load->view('v_adminmacroestructura');

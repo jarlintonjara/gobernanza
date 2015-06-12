@@ -21,9 +21,11 @@
   <div class="bs-example" data-example-id="simple-thumbnails" style="margin-top: 70px;">
     <div class="row">
       <div class="col-xs-6 col-md-6" style="text-align: center;">
+          <a href="<?php base_url() ?>directoriofechas" title="">
 		<button type="button" class="btn btn-default btn-lg">
 		  <span class="glyphicon glyphicon-calendar" aria-hidden="true"  style="font-size: 48px;"></span> Agregar Fecha
 		</button>
+    </a>
 	   </div>
       <div class="col-xs-6 col-md-6" style="text-align: center;">
 		<button type="button" class="btn btn-default btn-lg">
