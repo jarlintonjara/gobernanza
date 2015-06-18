@@ -1,0 +1,23 @@
+#Title h1{
+	font-family: 'odebrechtslab', sans-serif;
+}
+
+
+.contenido{
+	margin-top: 20px;
+	min-height: 500px;
+}
+.interno h2{
+	background-color: rgb(228, 0, 43);
+	font-size: 14px;
+	padding: 10px;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+.interno h3{
+	font-size: 18px;
+	border-left: 3px solid rgb(228, 0, 43);
+	padding-left: 5px;
+	text-transform: uppercase;
+}

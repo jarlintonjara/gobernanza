@@ -10,10 +10,8 @@
 |
 |	http://example.com/
 |
-| If this is not set then CodeIgniter will try to guess the protocol, domain
-| and path to your installation. However, you should always configure this
-| explicitly and never rely on auto-guessing, especially in production
-| environments.
+| If this is not set then CodeIgniter will guess the protocol, domain and
+| path to your installation.
 |
 */
 $config['base_url'] = ((isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] == "on") ? "https" : "http");
@@ -234,7 +232,7 @@ $config['cache_path'] = '';
 | MUST set an encryption key.  See the user guide for info.
 |
 */
-$config['encryption_key'] = '123456789';
+$config['encryption_key'] = 'zkated';
 
 /*
 |--------------------------------------------------------------------------
@@ -366,6 +364,15 @@ $config['rewrite_short_tags'] = FALSE;
 |
 */
 $config['proxy_ips'] = '';
+
+## Configuraciónes
+
+$config['serpost'] 		= '7.50';
+$config['courrier'] 	= '12.00';
+$config['dolar'] 		= '3.10';
+$config['tipo_cambio'] 	= 'S/.';
+$config['numero_cuenta']= '193-2080396-0-99';
+$config['empresa']= 'Monotes S.A.C.';
 
 
 /* End of file config.php */

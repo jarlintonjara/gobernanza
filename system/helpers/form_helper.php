@@ -5,9 +5,8 @@
  * An open source application development framework for PHP 5.1.6 or newer
  *
  * @package		CodeIgniter
- * @author		EllisLab Dev Team
- * @copyright		Copyright (c) 2008 - 2014, EllisLab, Inc.
- * @copyright		Copyright (c) 2014 - 2015, British Columbia Institute of Technology (http://bcit.ca/)
+ * @author		ExpressionEngine Dev Team
+ * @copyright	Copyright (c) 2008 - 2011, EllisLab, Inc.
  * @license		http://codeigniter.com/user_guide/license.html
  * @link		http://codeigniter.com
  * @since		Version 1.0
@@ -22,7 +21,7 @@
  * @package		CodeIgniter
  * @subpackage	Helpers
  * @category	Helpers
- * @author		EllisLab Dev Team
+ * @author		ExpressionEngine Dev Team
  * @link		http://codeigniter.com/user_guide/helpers/form_helper.html
  */
 
@@ -176,6 +175,48 @@ if ( ! function_exists('form_input'))
 	function form_input($data = '', $value = '', $extra = '')
 	{
 		$defaults = array('type' => 'text', 'name' => (( ! is_array($data)) ? $data : ''), 'value' => $value);
+
+		return "<input "._parse_form_attributes($data, $defaults).$extra." />";
+	}
+}
+
+// ------------------------------------------------------------------------
+
+/**
+ * Text Input Email
+ *
+ * @access	public
+ * @param	mixed
+ * @param	string
+ * @param	string
+ * @return	string
+ */
+if ( ! function_exists('form_email'))
+{
+	function form_email($data = '', $value = '', $extra = '')
+	{
+		$defaults = array('type' => 'email', 'name' => (( ! is_array($data)) ? $data : ''), 'value' => $value);
+
+		return "<input "._parse_form_attributes($data, $defaults).$extra." />";
+	}
+}
+
+// ------------------------------------------------------------------------
+
+/**
+ * Text Input Nuber
+ *
+ * @access	public
+ * @param	mixed
+ * @param	string
+ * @param	string
+ * @return	string
+ */
+if ( ! function_exists('form_number'))
+{
+	function form_number($data = '', $value = '', $extra = '')
+	{
+		$defaults = array('type' => 'number', 'name' => (( ! is_array($data)) ? $data : ''), 'value' => $value);
 
 		return "<input "._parse_form_attributes($data, $defaults).$extra." />";
 	}

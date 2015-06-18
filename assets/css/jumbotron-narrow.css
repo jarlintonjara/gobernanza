@@ -2,9 +2,10 @@
 body{
 /*  padding-top: 20px;
   padding-bottom: 20px;*/
-  background: url(../img/bg-header.jpg);
+  background: url(../images/bg-header.jpg);
   background-repeat:no-repeat;
   background-position: 50% 0%;
+  font-family: 'odebrechtslab';
 }
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
@@ -83,9 +84,9 @@ body{
 @font-face {
   font-family: odebrechtslab;
   src: local("?"),
-  url("../fonts/odebrecht-sans_bold-webfont.woff") format("woff"),
-  url("../fonts/odebrecht-sans_bold-webfont.otf") format("opentype"),
-  url("../fonts/odebrecht-sans_bold-webfont.svg#odebrechtslab") format("svg");
+  url("../fonts/web/odebrecht-sans_bold-webfont.woff") format("woff"),
+  url("../fonts/web/odebrecht-sans_bold-webfont.otf") format("opentype"),
+  url("../fonts/web/odebrecht-sans_bold-webfont.svg#odebrechtslab") format("svg");
 }
 #Login{
   height: 119px;
@@ -100,11 +101,11 @@ body{
   margin-bottom: 65px;
 }
 #Login .Box .User {
-  background: url(../img/bg-login.png);
+  background: url(../images/bg-login.png);
   }
 
 #Login .Box .Password {
-  background: url(../img/bg-password.png);
+  background: url(../images/bg-password.png);
 }
 
 #Login .Box .User, #Login .Box .Password {
@@ -163,11 +164,12 @@ body{
   left: 0px;
   top: 134px;
   z-index: 2;
+  background-color: rgb(227, 0, 27);
 }
 #Title h1 {
   font-size: 23px;
   line-height: 30px;
-  font-family: 'odebrechtslab';
+  
   margin-top: 20px;
   margin-left: 20px;
   color: #FFF;
@@ -181,20 +183,20 @@ body{
   color: #FFF;
 }
 .cinta-roja{
-  background-color: #e4002b;;
-  height: 15px;
+  background-color: #C80029;
+  height: 10px;
 }
 .cinta-roja-delgada{
   background-color: #e4002b;;
   height: 5px;
 }
 .cinta-gris{
-  background-color: rgb(77, 68, 68);
-  height: 25px;
+  background-color: rgb(140, 140, 140);
+  height: 41px;
 }
 .cinta-blanco{
   height: 210px;
-  background-image: url(../img/bg-header.jpg);
+  background-image: url(../images/bg-header.jpg);
 }
 .cinta-cuerpo{
   height: 500px;
